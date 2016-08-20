@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD8031FA1D68D81500117ADD /* pizzaChesseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8031F91D68D81500117ADD /* pizzaChesseVC.swift */; };
+		FD8031FC1D68DD8A00117ADD /* pizzaIngredientsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8031FB1D68DD8A00117ADD /* pizzaIngredientsVC.swift */; };
+		FD8031FE1D68E32C00117ADD /* pizzaResumenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8031FD1D68E32C00117ADD /* pizzaResumenVC.swift */; };
 		FD8239341D67F8F700D43B88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8239331D67F8F700D43B88 /* AppDelegate.swift */; };
-		FD8239361D67F8F700D43B88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8239351D67F8F700D43B88 /* ViewController.swift */; };
 		FD8239391D67F8F700D43B88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8239371D67F8F700D43B88 /* Main.storyboard */; };
 		FD82393B1D67F8F700D43B88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD82393A1D67F8F700D43B88 /* Assets.xcassets */; };
 		FD82393E1D67F8F700D43B88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD82393C1D67F8F700D43B88 /* LaunchScreen.storyboard */; };
+		FD8239461D67F94600D43B88 /* pizzaSizeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8239451D67F94600D43B88 /* pizzaSizeVC.swift */; };
+		FD8239481D67FA4400D43B88 /* pizzaMassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8239471D67FA4400D43B88 /* pizzaMassVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD8031F91D68D81500117ADD /* pizzaChesseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pizzaChesseVC.swift; sourceTree = "<group>"; };
+		FD8031FB1D68DD8A00117ADD /* pizzaIngredientsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pizzaIngredientsVC.swift; sourceTree = "<group>"; };
+		FD8031FD1D68E32C00117ADD /* pizzaResumenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pizzaResumenVC.swift; sourceTree = "<group>"; };
 		FD8239301D67F8F700D43B88 /* pizzasLabels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pizzasLabels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8239331D67F8F700D43B88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD8239351D67F8F700D43B88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FD8239381D67F8F700D43B88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD82393A1D67F8F700D43B88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD82393D1D67F8F700D43B88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD82393F1D67F8F700D43B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD8239451D67F94600D43B88 /* pizzaSizeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = pizzaSizeVC.swift; path = ../pizzaSizeVC.swift; sourceTree = "<group>"; };
+		FD8239471D67FA4400D43B88 /* pizzaMassVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pizzaMassVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				FD8239331D67F8F700D43B88 /* AppDelegate.swift */,
-				FD8239351D67F8F700D43B88 /* ViewController.swift */,
+				FD8239451D67F94600D43B88 /* pizzaSizeVC.swift */,
+				FD8239471D67FA4400D43B88 /* pizzaMassVC.swift */,
+				FD8031F91D68D81500117ADD /* pizzaChesseVC.swift */,
+				FD8031FB1D68DD8A00117ADD /* pizzaIngredientsVC.swift */,
+				FD8031FD1D68E32C00117ADD /* pizzaResumenVC.swift */,
 				FD8239371D67F8F700D43B88 /* Main.storyboard */,
 				FD82393A1D67F8F700D43B88 /* Assets.xcassets */,
 				FD82393C1D67F8F700D43B88 /* LaunchScreen.storyboard */,
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD8239361D67F8F700D43B88 /* ViewController.swift in Sources */,
+				FD8031FA1D68D81500117ADD /* pizzaChesseVC.swift in Sources */,
+				FD8031FE1D68E32C00117ADD /* pizzaResumenVC.swift in Sources */,
+				FD8239461D67F94600D43B88 /* pizzaSizeVC.swift in Sources */,
+				FD8031FC1D68DD8A00117ADD /* pizzaIngredientsVC.swift in Sources */,
 				FD8239341D67F8F700D43B88 /* AppDelegate.swift in Sources */,
+				FD8239481D67FA4400D43B88 /* pizzaMassVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +302,7 @@
 				FD8239441D67F8F700D43B88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
