@@ -215,6 +215,7 @@
                         <viewControllerLayoutGuide type="bottom" id="8Br-x9-SGY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hE1-bS-Kpw">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qio-6m-Tjf">
@@ -337,6 +338,7 @@
                         <viewControllerLayoutGuide type="bottom" id="abE-pU-RXp"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nuZ-xs-DKR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KaJ-PV-NxT">
@@ -478,6 +480,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Hyg-8y-4bb"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="jF2-Hn-R0P">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resumen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yg6-bg-iYX">
@@ -578,6 +581,7 @@
                         <viewControllerLayoutGuide type="bottom" id="tti-su-VKA"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZbF-Cf-RvN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¡Tu pedido se encuentra en proceso!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rsU-pV-ZZe">
@@ -647,6 +651,7 @@
                         <viewControllerLayoutGuide type="bottom" id="n27-mp-TAA"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4je-A0-3od">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¡Reliza tu pedido desde aquí!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9A-mw-9Of">
